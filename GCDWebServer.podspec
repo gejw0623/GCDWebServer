@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/swisspol/GCDWebServer'
   s.summary  = 'Lightweight GCD based HTTP server for OS X & iOS (includes web based uploader & WebDAV server)'
   
-  s.source   = { :git => 'https://github.com/swisspol/GCDWebServer.git', :tag => s.version.to_s }
+  s.source   = { :git => 'https://github.com/gejw0623/GCDWebServer.git', :tag => s.version.to_s }
   s.ios.deployment_target = '5.0'
   s.tvos.deployment_target = '9.0'
   s.osx.deployment_target = '10.7'
@@ -33,11 +33,6 @@ Pod::Spec.new do |s|
     cs.osx.framework = 'SystemConfiguration'
   end
   
-  s.subspec "CocoaLumberjack" do |cs|
-    cs.dependency 'GCDWebServer/Core'
-    cs.dependency 'CocoaLumberjack', '~> 2'
-  end
-  
   s.subspec 'WebDAV' do |cs|
     cs.subspec "Core" do |ccs|
       ccs.dependency 'GCDWebServer/Core'
@@ -48,11 +43,6 @@ Pod::Spec.new do |s|
       ccs.osx.library = 'xml2'
       ccs.compiler_flags = '-I$(SDKROOT)/usr/include/libxml2'
     end
-
-    cs.subspec "CocoaLumberjack" do |cscl|
-      cscl.dependency 'GCDWebServer/WebDAV/Core'
-      cscl.dependency 'GCDWebServer/CocoaLumberjack'
-    end
   end
   
   s.subspec 'WebUploader' do |cs|
@@ -61,11 +51,6 @@ Pod::Spec.new do |s|
       ccs.source_files = 'GCDWebUploader/*.{h,m}'
       ccs.requires_arc = true
       ccs.resource = "GCDWebUploader/GCDWebUploader.bundle"
-    end
-
-    cs.subspec "CocoaLumberjack" do |cscl|
-      cscl.dependency 'GCDWebServer/WebUploader/Core'
-      cscl.dependency 'GCDWebServer/CocoaLumberjack'
     end
   end 
 end

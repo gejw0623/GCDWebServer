@@ -861,7 +861,7 @@
 					};
 					CEE28CEE1AE0051F00F4023C = {
 						CreatedOnToolsVersion = 6.3;
-						DevelopmentTeam = 88W3E55T4B;
+						DevelopmentTeam = Q92S3ND59P;
 					};
 					E24039241BA09207000B7089 = {
 						CreatedOnToolsVersion = 6.4;
@@ -871,10 +871,11 @@
 					};
 					E2DDD1C61BE698A8002CE867 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 88W3E55T4B;
+						DevelopmentTeam = Q92S3ND59P;
 					};
 					E2DDD1F51BE69EE4002CE867 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = Q92S3ND59P;
 					};
 				};
 			};
@@ -1292,6 +1293,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Q92S3ND59P;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1309,6 +1311,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Q92S3ND59P;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1409,6 +1412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = Q92S3ND59P;
 				INFOPLIST_FILE = tvOS/Info.plist;
 				PRODUCT_NAME = GCDWebServer;
 				PROVISIONING_PROFILE = "";
@@ -1421,6 +1425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = Q92S3ND59P;
 				INFOPLIST_FILE = tvOS/Info.plist;
 				PRODUCT_NAME = GCDWebServer;
 				PROVISIONING_PROFILE = "";
@@ -1433,6 +1438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = Q92S3ND59P;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
@@ -1447,6 +1453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = Q92S3ND59P;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
